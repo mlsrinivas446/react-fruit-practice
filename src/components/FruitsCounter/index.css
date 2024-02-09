@@ -1,0 +1,92 @@
+.counter-container {
+  background-color: #ffd569;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.counter-card-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 90vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.count-value {
+  color: #ffd569;
+}
+
+.count-heading {
+  font-size: 40px;
+  text-align: center;
+}
+
+.card-fruit1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-fruit2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruit-img {
+  height: 40vh;
+  width: 30vw;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 30px;
+}
+
+.fruit-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (width<=767px) {
+  .fruit-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .count-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fruit-img {
+    height: 30vh;
+    width: 30vw;
+  }
+}
